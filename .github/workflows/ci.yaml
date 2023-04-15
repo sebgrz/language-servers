@@ -19,3 +19,6 @@ jobs:
         run: |
           ./build.sh vscode
       
+      - name: Build CSS LSP
+        run: |
+          ./build.sh css-lsp

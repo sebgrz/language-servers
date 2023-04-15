@@ -1,0 +1,19 @@
+{
+  "name": "css-language-server",
+  "version": "0.0.1",
+  "description": "A CSS language server",
+  "main": "index.js",
+  "bin": {
+    "css-language-server": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vscode-css-languageservice": "^6.2.4",
+    "vscode-languageserver": "^8.1.0",
+    "vscode-uri": "^3.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
