@@ -22,3 +22,11 @@ jobs:
       - name: Build CSS LSP
         run: |
           ./build.sh css-lsp
+
+      - name: Release
+        run: |
+          ./build.sh prepare-release
+          ./build.sh release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
